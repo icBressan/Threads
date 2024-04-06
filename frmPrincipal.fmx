@@ -1,0 +1,84 @@
+object frmThreads: TfrmThreads
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Exemplo de Threads'
+  ClientHeight = 360
+  ClientWidth = 370
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnExemplo1: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Exemplo 1'
+    OnClick = btnExemplo1Click
+  end
+  object btnExemplo2: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 134.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Exemplo 2 - Task'
+    OnClick = btnExemplo2Click
+  end
+  object btnExemplo3: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 172.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Exemplo 3 - Task'
+    OnClick = btnExemplo3Click
+  end
+  object btnExemplo4: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 210.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Exemplo 4 - Task Array'
+    OnClick = btnExemplo4Click
+  end
+  object btnExemplo5: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Exemplo 5 - TFuture Array'
+    OnClick = btnExemplo5Click
+  end
+  object btnExemplo6: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 286.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Exemplo 6 - Anonimous Thread'
+    OnClick = btnExemplo6Click
+    object Label1: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = -248.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'Threads - Exemplos'
+      TabOrder = 5
+    end
+  end
+end
